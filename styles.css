@@ -184,7 +184,7 @@ span img {
 .support {
   padding-top: 20px;
   font-family: "DM Sans";
-  font-size: 12px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 22px;
   letter-spacing: 0.02em;
@@ -196,80 +196,14 @@ a {
   text-decoration: none;
 }
 
-/* .table {
-    overflow-y: hidden;
-    
-  }
-  
- 
-  /*
-   <th scope="col">Reference Number:</th>
-                                  <th scope="col">Token:</th>
-                                  <th scope="col">Recharge Unit:</th>
-                                  <th scope="col">Customer Name:</th>
-                                  <th scope="col">Sender:</th>
-                                  <th scope="col">Transaction Amount:</th>
-                                  <th scope="col">Amount in words:</th>
-                                  <th scope="col">Remarks:</th>
-                                  <th scope="col">Address:</th>
-  
-  <td> 14th August 2023, 09:19 AM</td>
-                                  <td>81884555677783339</td>
-                                  <td>3299-2224-2228-4555</td>
-                                  <td>88.Kwh</td>
-                                  <td>Adebambi Modupe</td>
-                                  <td>Sameul Akosile</td>
-                                  <td>N20,000.00</td>
-                                  <td>Twenty Thousand Naira</td>
-                                  <td>IKEDC Bills Payment</td>
-                                  <td>56, Ribadu Ikoyi</td> */
-.top-fee {
-  padding-top: 20px;
-}
-
-.fee {
-  color: #0d2543;
-  font-family: Poppins;
-  font-size: 12.286px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 8.418px; /* 159.251% */
-  text-transform: capitalize;
-}
-
-.note {
-  color: #054047;
-  font-family: Poppins;
-  font-size: 13px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 13.813px; /* 180.219% */
-}
-
 /* media screen */
-
-@media (max-width: 576px) {
-  .oneside {
-    font-size: 10px;
+@media (min-width: 320px) and (max-width: 480px)  {
+  .support {
+    font-size: 12px;
   }
-
-  .transaction {
-    gap: 50px;
-  }
-
-  thead th {
-    font-size: 10px;
-  }
-
-  tbody th {
-    font-size: 10px;
-  }
-
-  tbody td {
-    font-size: 10px;
-  }
-
-  .note {
-    font-size: 10px;
+}
+@media (min-width: 576px)  and (max-width: 768px) {
+  .support {
+    font-size: 13px;
   }
 }
