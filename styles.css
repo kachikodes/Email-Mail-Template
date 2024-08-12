@@ -1,0 +1,275 @@
+* {
+  padding: 0px;
+}
+
+/* body {
+    margin: 0px auto;
+    background: white;
+    
+  } */
+
+.kard {
+  padding: 30px;
+  padding-bottom: 20px;
+  /* width: 80%; */
+  background: #e9f9fb;
+  box-shadow: 0px 4.34552px 19.55482px 0px rgba(0, 0, 0, 0.05);
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.base {
+  margin: 20px;
+  display: flex;
+  gap: 10px;
+  color: #054047;
+  font-family: "DM Sans";
+  font-size: 19.069px;
+  font-style: normal;
+  font-weight: 400;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  line-height: 11.747px; /* 116.667% */
+  padding-left: 30px;
+}
+
+.kontainer {
+  padding: 0px 40px 40px 40px;
+  /* margin-left: 10px; */
+}
+
+hr {
+  border: 2px solid #fde428;
+  /* width: 90%; */
+  /* height: 2px; */
+  margin: 10px 0;
+}
+
+.kardi {
+  background-color: white;
+  /* width: 90%; */
+}
+
+.transaction {
+  display: flex;
+  gap: 150px;
+}
+
+.oneside {
+  color: #054047 !important;
+  font-family: Poppins;
+  font-size: 12.495px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 8.751px; /* 159.251% */
+  text-transform: capitalize;
+}
+
+.top {
+  padding-top: 30px;
+}
+
+.table {
+  border-radius: 16px;
+  border: 3px solid #1cbbce;
+  border-collapse: separate; /* Ensure borders don't collapse, so border-radius works */
+  border-spacing: 0; /* Remove spacing between cells */
+  width: 100%;
+  /* margin: 20px auto; */
+  overflow: hidden; /* Ensures rounded corners are respected */
+}
+
+.table tr,
+.table td {
+  padding: 20px 10px 20px 28px;
+  /* margin-left: 30px; */
+}
+
+.foot {
+  background: #f3fbfc !important;
+}
+
+.token {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.rights {
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 19.14px;
+  text-align: center;
+  color: #5e6282;
+}
+
+span img {
+  top: 15px;
+}
+
+.receipt {
+  font-family: "DM Sans";
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31.25px;
+  text-align: left;
+  color: #1cbbce;
+  padding-bottom: 10px;
+}
+
+.tega {
+  font-family: "DM Sans";
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 20.83px;
+  text-align: left;
+  color: #000000;
+}
+
+.bill {
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #000000;
+}
+
+.token {
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20.83px;
+  text-align: center;
+  color: #000000;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.title {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30.91px;
+  text-align: left;
+  color: #054047;
+}
+
+.info {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30.91px;
+  text-align: left;
+  color: #0d2543;
+}
+
+.support {
+  padding-top: 20px;
+  font-family: "DM Sans";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+a {
+  color: #1cbbce;
+  text-decoration: none;
+}
+
+/* .table {
+    overflow-y: hidden;
+    
+  }
+  
+ 
+  /*
+   <th scope="col">Reference Number:</th>
+                                  <th scope="col">Token:</th>
+                                  <th scope="col">Recharge Unit:</th>
+                                  <th scope="col">Customer Name:</th>
+                                  <th scope="col">Sender:</th>
+                                  <th scope="col">Transaction Amount:</th>
+                                  <th scope="col">Amount in words:</th>
+                                  <th scope="col">Remarks:</th>
+                                  <th scope="col">Address:</th>
+  
+  <td> 14th August 2023, 09:19 AM</td>
+                                  <td>81884555677783339</td>
+                                  <td>3299-2224-2228-4555</td>
+                                  <td>88.Kwh</td>
+                                  <td>Adebambi Modupe</td>
+                                  <td>Sameul Akosile</td>
+                                  <td>N20,000.00</td>
+                                  <td>Twenty Thousand Naira</td>
+                                  <td>IKEDC Bills Payment</td>
+                                  <td>56, Ribadu Ikoyi</td> */
+.top-fee {
+  padding-top: 20px;
+}
+
+.fee {
+  color: #0d2543;
+  font-family: Poppins;
+  font-size: 12.286px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 8.418px; /* 159.251% */
+  text-transform: capitalize;
+}
+
+.note {
+  color: #054047;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 13.813px; /* 180.219% */
+}
+
+/* media screen */
+
+@media (max-width: 576px) {
+  .oneside {
+    font-size: 10px;
+  }
+
+  .transaction {
+    gap: 50px;
+  }
+
+  thead th {
+    font-size: 10px;
+  }
+
+  tbody th {
+    font-size: 10px;
+  }
+
+  tbody td {
+    font-size: 10px;
+  }
+
+  .note {
+    font-size: 10px;
+  }
+}
