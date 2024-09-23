@@ -74,6 +74,7 @@ hr {
   padding-top: 30px;
 }
 
+
 .table {
   border-radius: 16px;
   border: 3px solid #1cbbce;
@@ -82,6 +83,8 @@ hr {
   width: 100%;
   /* margin: 20px auto; */
   overflow: hidden; /* Ensures rounded corners are respected */
+  justify-content: center;
+  align-items: center;
 }
 
 .table tr,
@@ -186,7 +189,7 @@ span img {
 .support {
   padding-top: 20px;
   font-family: "DM Sans";
-  font-size: 17px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 22px;
   letter-spacing: 0.02em;
@@ -198,32 +201,14 @@ a {
   text-decoration: none;
 }
 
-
-
 /* media screen */
-
-@media (max-width: 576px) {
-  .oneside {
-    font-size: 10px;
+@media (min-width: 320px) and (max-width: 480px)  {
+  .support {
+    font-size: 12px;
   }
-
-  .transaction {
-    gap: 50px;
-  }
-
-  thead th {
-    font-size: 10px;
-  }
-
-  tbody th {
-    font-size: 10px;
-  }
-
-  tbody td {
-    font-size: 10px;
-  }
-
-  .note {
-    font-size: 10px;
+}
+@media (min-width: 576px)  and (max-width: 768px) {
+  .support {
+    font-size: 13px;
   }
 }
